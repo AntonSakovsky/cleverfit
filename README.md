@@ -1,4 +1,4 @@
-# Keybord trainer Smartype
+# Workout planner CleverFit
 
 ## Description
 
