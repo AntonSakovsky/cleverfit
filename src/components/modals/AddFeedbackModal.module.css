@@ -1,0 +1,27 @@
+.body{
+    padding: 0;
+}
+
+.publishWrap{
+    display: flex;
+    justify-content: right;
+}
+.publishBtn{
+    width: 130px;
+}
+
+
+@media (max-width: 661px){
+    .modal{
+        width: 328px !important;
+    }
+}
+
+@media (max-width: 461px){
+    .publishWrap{
+        justify-content: center;
+    }
+    .publishBtn{
+        width: 100%;
+    }
+}

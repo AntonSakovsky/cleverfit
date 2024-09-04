@@ -1,0 +1,25 @@
+.iconCell { 
+    padding-block: var(--padding-xs);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    transition: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+.btn:focus {
+    background-color: transparent;
+}
+.btn:disabled {
+    background-color: transparent;
+}
+.btn:disabled:hover{
+    background-color: transparent;
+}

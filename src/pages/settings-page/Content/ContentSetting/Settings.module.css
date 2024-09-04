@@ -1,0 +1,8 @@
+.settingsContainer{
+    max-width: 505px;
+    display: flex;
+    flex-direction: column;
+    padding-block: var(--baseMediumPadding);
+    gap: var(--gap);
+    margin-bottom: var(--baseMargin);
+}

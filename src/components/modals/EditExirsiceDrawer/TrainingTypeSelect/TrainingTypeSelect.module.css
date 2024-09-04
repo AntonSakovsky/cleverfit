@@ -1,0 +1,13 @@
+.select {
+    width: 100%;
+    padding: 0;
+    height: 30px;
+    margin-bottom: var(--baseMargin);
+}
+
+.content {
+    font-size: var(--fontSizeSmall);
+    font-weight: 400;
+    line-height: var(--lineHeightSmall);
+    text-align: left;
+}

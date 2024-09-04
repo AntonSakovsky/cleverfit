@@ -1,0 +1,8 @@
+.modal403.modal{
+    z-index: 100;
+}
+@media (max-width: 767px){
+    .modal403.modal{
+        max-width: calc(100vw - 32px);
+    }
+}

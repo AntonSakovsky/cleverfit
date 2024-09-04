@@ -1,0 +1,7 @@
+header.header{
+    background-color: var(--headerBackground) ;
+    padding-block: var(--baseMediumPadding);
+    padding-inline: var(--basePadding);
+    height: auto;
+    width: 100%;
+}

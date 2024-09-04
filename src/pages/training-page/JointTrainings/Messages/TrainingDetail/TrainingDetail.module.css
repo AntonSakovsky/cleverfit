@@ -1,0 +1,109 @@
+.modal {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    box-shadow: 0px 1px 3px 2px #F0F0F0;
+    z-index: 100;
+}
+.modal.toTop {
+    top: unset;
+    bottom: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--baseMediumPadding) var(--padding-s);
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: var(--baseMargin);
+}
+
+.trainingType {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+.indicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right:  var(--margin-s);
+}
+
+.closeIcon {
+    padding: var(--padding-xxs) var(--padding-xs);
+    border-radius: 50%;
+}
+.closeIcon:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.trainType {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-s);
+}
+
+.trainInfo {
+    padding-inline: var(--padding-s);
+}
+
+.timeBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:  var(--margin-xs);
+}
+
+.period {
+    font-size: var(--fontSizeDefault);
+    font-weight: 500;
+    line-height: var(--lineHeightDefault);
+    color: var(--black);
+}
+
+.date {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+}
+
+.exersices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--gap-s);
+    margin-bottom: var(--baseMargin);
+}
+
+.exersice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exersiceName {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+    margin: 0;
+}
+.exersiceInfo {
+    font-size: var(--fontSizeSmall);
+    font-weight: 400;
+    line-height: var(--lineHeightSmall);
+    color: var(--blue);
+    margin: 0;
+}
+
+@media (max-width: 461px){
+    .modal {
+        width: 280px;
+        left: -13px;
+    }
+}

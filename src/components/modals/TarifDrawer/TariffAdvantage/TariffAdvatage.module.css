@@ -1,0 +1,26 @@
+.advatage {
+    display: flex;
+    align-items: center;    
+}
+.name {
+    flex: 1;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    text-align: left;
+}
+.hasList{
+    display: flex;
+    gap: var(--gap-m);
+}
+.hasItem {
+    width: 56px;
+    padding: var(--padding-xxs) var(--padding-xs);
+    text-align: center;
+}
+
+@media (max-width: 461px){
+    .hasItem{
+        padding: 1px;
+    }
+}

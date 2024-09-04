@@ -1,0 +1,76 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.content{
+    flex: 1;
+    height: calc(100% - 111px);
+}
+.mainContent{
+    height: calc(100% - 210px);
+    padding-inline: calc(var(--baseMediumPadding) * 2);
+}
+
+.mainContent.withDataInputs{
+    height: calc(100% - 280px);
+}
+
+.editIcon{
+    margin-right: 6px;
+}
+
+.dataInputsWrap {
+    margin-bottom: var(--baseMargin);
+}
+.info{
+    margin-top: var(--margin-s);
+    height: 48px;
+    margin-bottom: var(--margin-s);
+}
+.info p{
+    margin: 0;
+    font-size: var(--fontSizeSmall);
+    font-weight: 400;
+    line-height: var(--lineHeightSmall);
+    color: var(--grey);
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+.footer .divider {
+    margin: 0;
+}
+
+.actionBtnWrap {
+    padding: var(--padding-s) var(--padding-l);
+}
+
+@media (max-width: 461px){
+    .drawer.drawerElem{
+        position: static;
+    }
+    .drawer.drawerElem div[class=ant-drawer-content]{
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .drawer.drawerElem div[class=ant-drawer-content-wrapper]{    
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        height: 85vh;
+    }
+    .body{
+        padding-block: var(--basePadding);
+    }
+    .mainContent {
+        padding-inline: var(--baseMediumPadding);
+    }
+    .actionBtnWrap {
+        padding: var(--padding-s);
+        padding-inline: var(--baseMediumPadding);
+    }
+}

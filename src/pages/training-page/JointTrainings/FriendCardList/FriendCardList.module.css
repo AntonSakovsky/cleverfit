@@ -1,0 +1,11 @@
+.friendCardList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    width: 100%;
+    margin-bottom: var(--baseMediumMargin);
+}
+.cardWrapper {
+    background-color: var(--headerBackground);
+}
+

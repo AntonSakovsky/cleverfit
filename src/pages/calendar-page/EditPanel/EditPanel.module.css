@@ -1,0 +1,42 @@
+.panel{
+    padding-inline: var(--padding-s);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel:hover{
+    background-color: var(--grey3);
+}
+.type{
+    display: flex;
+    align-items: center;
+}
+.indicator{
+    width: 6px;
+    height: 6px;
+    margin-right: var(--margin-xs);
+    border-radius: 50%;
+}
+.text{
+    color: var(--black);
+    font-size: var(--fontSizeMedium);
+    line-height: var(--lineHeightMedium);
+    font-weight: 400;
+}
+.text.lighter{
+    color: var(--grey);
+}
+.editIcon{
+    cursor: pointer;
+}
+.panel .btn{
+    background-color: transparent;
+    border: none;
+    transition: none;
+}
+.panel .btn:hover{
+    background-color: transparent;
+}
+.panel .btn:disabled{
+    background-color: transparent;
+}

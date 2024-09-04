@@ -1,0 +1,19 @@
+.whiteBoard{
+    border-radius: 2px;
+    background-color: white;
+    margin: var(--baseMargin);
+    margin-left: 0;
+    margin-bottom: 0;
+    max-width: 752px;
+}
+.body{
+    padding: var(--basePadding);
+}
+@media (max-width:361px){
+    .whiteBoard{
+        margin-right: var(--baseMediumMargin);
+    }
+    .body{
+        padding: var(--baseMediumPadding);
+    }
+}

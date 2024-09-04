@@ -1,0 +1,33 @@
+.graphic {
+    padding: var(--padding-s);
+    border-radius: 2px;
+    border: 1px solid var(--lightGrey);
+    
+    margin-bottom: var(--baseMargin);
+}
+.histogramWrap {
+    max-width: 520px;
+    margin-bottom: var(--baseMargin);
+    overflow: auto;
+}
+.histogramWrap.histogramWrapMonth {
+    max-width: none;
+    width: 100%;
+}
+.histogramWrap::-webkit-scrollbar {
+    height: 6px;
+}
+
+.histogramWrap::-webkit-scrollbar-thumb {
+    background-color: var(--greyDisabled);
+    border-radius: 3px;
+}
+.legend {
+    font-size: var(--fontSizeMedium);
+    line-height: var(--lineHeightMedium);
+    font-weight: 400;
+    color: var(--black);
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}

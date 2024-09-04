@@ -1,0 +1,16 @@
+.content{
+    margin: var(--baseMargin);
+    padding: var(--basePadding);
+    margin-bottom: calc(var(--margin-xl) - 8);
+    background-color: #fff;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 461px){
+    .content{
+        margin-inline: 0;
+        padding-top: var(--baseMediumPadding);
+        padding-inline: var(--baseMediumPadding);
+        padding-bottom: 37px;
+    }
+}

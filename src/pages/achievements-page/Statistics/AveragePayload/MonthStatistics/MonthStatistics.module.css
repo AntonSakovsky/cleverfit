@@ -1,0 +1,6 @@
+.dataList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    column-gap: 100px;
+}

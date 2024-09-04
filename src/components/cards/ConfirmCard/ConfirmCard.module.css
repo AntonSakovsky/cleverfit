@@ -1,0 +1,130 @@
+.body{
+    min-width: 368px;
+    width: 100%;
+    text-align: center;
+}
+.imgWrap{
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 255px;
+    max-height: 295px;
+    margin-bottom: var(--baseMargin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+.textBlock{
+    margin-bottom: var(--baseMargin);
+}
+.body .title{
+    font-weight: 500;
+    line-height: var(--lineHeightLarge);
+    font-size: var(--fontSizeLarge);
+    margin: 0;
+    color: var(--black);
+    text-align: center;
+}
+
+.body .title span{
+    display: block;
+}
+
+.bottomLabel{
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+    text-align: center;
+}
+.inputWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--baseMargin);
+}
+.inputWrap div:first-child{
+    height: 40px;
+}
+.verifyContainer{
+    width: auto;
+    gap: var(--gap-m);
+}
+.character{
+    width: 40px;
+    height: 40px;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #D9D9D9;
+    border-radius: 2px; 
+}
+.character.invalid{
+    border: 1px solid #FF4D4F;
+}
+.chInactive{
+    background-color: white;
+}
+.chSelected{
+    position: relative;
+}
+.chSelected:not(.chFilled)::after {
+    content: "|";
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: blink 1s infinite step-end;
+}
+   
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+}
+
+.chSelected.invalid{
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #ff4d505e;
+}
+.chFilled{
+
+}
+
+
+@media (max-width: 461px){
+    .body{
+        min-width: 250px;
+        width: 100%;
+    }
+    .textBlock span{
+        display: inline;
+    }
+    .verifyContainer{
+        gap: var(--gap-s);
+    }
+}
+@media (max-width: 351px){
+    .verifyContainer{
+        gap: var(--gap-xs);
+    }
+    .character{
+        width: 30px;
+        height: 30px;
+    }
+    .inputWrap div:first-child{
+        height: 30px;
+    }
+}

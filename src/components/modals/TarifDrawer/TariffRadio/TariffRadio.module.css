@@ -1,0 +1,38 @@
+.radioItem {
+    width: 100%;
+    margin-bottom: var(--baseMediumMargin);
+}
+.radioField {
+    display: flex;
+    justify-content: space-between;
+}
+.duration {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+}
+.priceAndRadio {
+    display: flex;
+    gap: var(--gap-m);
+}
+.price {
+    width: 56px;
+    font-size: var(--fontSizeDefault);
+    font-weight: 500;
+    line-height: var(--lineHeightDefault);
+    text-align: center;
+}
+.radio {
+    text-align: center;
+    margin: 0 auto;
+    width: 56px;
+}
+.radio span{
+    margin: 0 auto;
+}
+
+@media (max-width: 461px){
+    .radioItem {
+        margin-bottom: calc(var(--margin-xs) + 2);
+    }
+}

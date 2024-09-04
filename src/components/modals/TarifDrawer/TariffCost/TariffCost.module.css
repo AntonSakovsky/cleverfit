@@ -1,0 +1,16 @@
+.radioGroup{
+    width: 100%;
+}
+.title {
+    font-size: var(--fontSizeMedium);
+    font-weight: 700;
+    line-height: var(--lineHeightMedium);
+    margin: 0;
+    margin-bottom: var(--baseMargin);
+}
+
+@media (max-width: 461px){
+    .title{
+        margin-bottom: var(--margin-s);
+    }
+}

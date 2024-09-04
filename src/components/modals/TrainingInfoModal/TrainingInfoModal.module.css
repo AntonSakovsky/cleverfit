@@ -1,0 +1,62 @@
+.myModal{
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0px 2px 8px 0px #00000026;
+    width: 264px;
+}
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.header{
+    padding: var(--padding-xs);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.content{
+    padding-top: var(--baseMediumPadding);
+    padding-inline: var(--padding-xs);
+    min-height: 91px;
+    padding-bottom: var(--padding-xxs);
+}
+.content p {
+    margin: 0;
+    color: var(--grey);
+}
+.imgWarp{
+    width: 100%;
+    padding-block: var(--baseMediumPadding);
+    text-align: center;
+}
+.imgWarp img{
+    width: 32px;
+    height: 32px;
+}
+.backArrow{
+    transition: all .3s ease;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: var(--margin-s);
+}
+.backArrow:hover{
+    cursor: pointer;
+    background-color: var(--lightGrey);
+}
+.footerBtns{
+    text-align: center;
+}
+
+
+
+.footer{
+    border-top: 1px solid #f0f0f0;
+    padding: var(--padding-s);
+}

@@ -1,0 +1,32 @@
+.buttons .actionButton{
+    width: 100%;
+    font-size: var(--fontSizeDefault);
+    font-weight: 400;
+    line-height: var(--lineHeightDefault);
+    padding: var(--padding-xs);
+    height: auto;
+}
+.buttons .altLoginBtn:hover{
+    background-color: #f3f3f3;
+    border-color: #d9d9d9;
+    color: var(--black);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+.buttons .mainLoginBtn{
+    background-color: var(--blue);
+}
+.buttons .mainLoginBtn:hover{
+    background-color: #2b48bb;    
+}
+
+
+@media (max-width: 451px){
+    .buttons .actionButton{
+        font-size: var(--fontSizeMedium);
+    }
+}

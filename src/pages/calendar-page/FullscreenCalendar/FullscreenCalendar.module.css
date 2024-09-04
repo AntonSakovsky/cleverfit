@@ -1,0 +1,6 @@
+.calendar{
+    background-color: transparent !important;
+}
+.calendar div[class=ant-picker-panel]{
+    background: none;
+}

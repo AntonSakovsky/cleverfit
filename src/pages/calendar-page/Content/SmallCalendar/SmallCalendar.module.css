@@ -1,0 +1,21 @@
+.cell{
+    height: 24px;
+    padding-top: 1px;
+    text-align: center;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+}
+.cell:hover{
+    background-color: var(--grey3);
+}
+.cell.active{
+    border: 1px solid #2F54EB;
+    border-radius: 2px;
+}
+.withTrainings:hover{
+    background-color: var(--headerBackground);
+}
+.withTrainings{
+    background-color: var(--headerBackground);
+}

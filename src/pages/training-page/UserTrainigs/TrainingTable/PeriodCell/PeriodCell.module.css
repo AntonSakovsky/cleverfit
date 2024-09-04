@@ -1,0 +1,8 @@
+.periodCell {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+    padding-block: var(--padding-xs);
+    min-height: 34px;
+}

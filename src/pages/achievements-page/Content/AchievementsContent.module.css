@@ -1,0 +1,18 @@
+.content {
+    margin-inline: var(--baseMargin);
+    margin-block: var(--baseMediumMargin);
+    background-color: #fff;
+    height: 100%;
+    padding: var(--basePadding);
+    /* padding-block: var(--padding-s); */
+    padding-bottom: 0px;
+    overflow-y: hidden;
+    border-radius: 8px;
+}
+
+@media (max-width: 461px){
+    .content {
+        padding: var(--baseMediumPadding);
+        margin-inline: 0;
+    }
+}

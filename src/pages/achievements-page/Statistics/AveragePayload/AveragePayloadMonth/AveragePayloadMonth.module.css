@@ -1,0 +1,11 @@
+.payloadContainerMonth {
+    width: 100%;
+}
+.title {
+    margin: 0;
+    margin-bottom: var(--baseMargin);
+    font-size: var(--fontSizeDefault);
+    font-weight: 500;
+    line-height: var(--lineHeightDefault);
+    color: var(--black);
+}

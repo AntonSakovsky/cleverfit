@@ -1,0 +1,22 @@
+.content {
+    margin: var(--baseMargin);
+    padding: var(--basePadding);
+    margin-bottom: calc(var(--margin-xl) - 8);
+    background-color: #fff;
+    padding-bottom: 200px;
+}
+
+.title {
+    margin-bottom: var(--baseMargin);
+    font-size: var(--fontSize-m);
+    line-height: var(--lineHeight-m);
+    font-weight: 500;
+}
+
+@media (max-width: 461px) {
+    .content {
+        padding-block: var(--baseMediumPadding);
+        padding-inline: var(--basePadding);
+        margin-inline: 0;
+    }
+}

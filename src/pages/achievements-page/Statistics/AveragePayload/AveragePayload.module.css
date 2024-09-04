@@ -1,0 +1,10 @@
+.payloadContainerWeek {
+    display: flex;
+    align-items: center;
+    column-gap: 150px;
+    flex-wrap: wrap;
+}
+
+.payloadContainerMonth {
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+
+.table {
+    max-width: 555px;
+}
+.column.cell.cellItem {
+    padding: 0;
+    margin-right: calc(var(--margin-xs) + 2);
+    max-width: 260px;
+}
+
+.column.cell.cellItem.lastCell{
+    width: auto;
+}
+.tableHeader {
+    background-color: var(--lightGrey);
+    padding: var(--padding-xs);
+    max-width: 260px;
+    max-height: 35px;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightSmall);
+}
+.iconHeader{
+    width: auto;
+    height: 32px;
+}
+.tableSelect  {
+    width: 100%;
+}
+.sorter {
+    background-color: var(--lightGrey);
+    padding-right: var(--padding-xxs);
+}

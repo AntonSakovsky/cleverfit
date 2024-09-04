@@ -1,0 +1,56 @@
+.sideBarContainer{
+    position: relative;
+}
+.sider{
+    height: 100%;
+}
+.sidebarMenu.pl16 li{
+    padding-left: var(--baseMediumPadding) !important;
+}
+.logo{
+    display: block;
+    height: 33px;
+    margin-top: var(--margin-xl);
+    margin-bottom: 67px;
+    text-align: center;
+}
+.logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.calendar svg path{
+    fill: #061178;
+}
+.profile svg path{
+    fill: #061178;
+}
+
+.sideBarContainer .sider .badge {
+    min-width: 0px;
+}
+
+@media (max-width: 461px){
+    .sideBarContainer{
+        display: flex;
+        position: fixed;
+        z-index: 100;
+    }
+    .logo{
+        height: 18px;
+        width: 72px;
+        margin: var(--baseMediumMargin);
+    }
+    .sider{
+        height: 100vh;
+    }
+    .sider li span[role="img"] {
+        display: none;
+    }
+    .sidebarMenu.pl16 li[role="menuitem"] {
+        padding: 0px var(--padding-xs) !important;
+    }
+    .sider li span:last-child {
+        margin: 0;
+    }
+}

@@ -1,0 +1,42 @@
+.userTrainings {
+    height: 100%;
+}
+
+.emptyTrainings {
+    height: 100%;
+}
+
+.newTraining{
+    margin-top: var(--baseMargin);
+}
+
+.myAlert.alert {
+    color: var(--black);
+    position: absolute;
+    bottom: 24px;
+    max-width: 395px;
+    width: 100%;
+    z-index: 1010;
+    left: 50%;
+    margin-left: 100px;
+    transform: translateX(-50%);
+}
+.myAlert.alert span[role='img'] {
+    margin-right: var(--margin-s);
+}
+
+@media (max-width: 661px){
+    .myAlert.alert{
+        margin-left: 20px;
+        max-width: calc(70% - 16px);
+    }
+}
+
+@media (max-width: 461px) {
+    .myAlert.alert{
+        left: 0;
+        margin-left: 0;
+        transform: translateX(16px);
+        max-width: calc(100% - 50px);
+    }
+}

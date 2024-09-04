@@ -1,0 +1,17 @@
+.emptyMessage {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+}
+.title {
+    font-size: var(--fontSize-m);
+    font-weight: 500;
+    line-height: var(--lineHeight-m);
+    margin-bottom:  var(--margin-s);
+}
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}

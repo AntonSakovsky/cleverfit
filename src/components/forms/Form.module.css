@@ -1,0 +1,69 @@
+.loginForm,
+.registrationForm,
+.changePasswordForm {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+.loginForm {
+    margin-bottom: 174px;
+}
+.registrationForm {
+    margin-bottom: var(--margin-xxl);
+}
+.changePasswordForm {
+    width: 100%;
+}
+.changePasswordForm .changePasswordTitle {
+    font-size: var(--fontSizeLarge);
+    font-weight: 500;
+    line-height: var(--lineHeightLarge);
+    text-align: center;
+    margin-bottom: var(--baseMediumMargin);
+}
+
+.profileFormContentWrap{
+    max-width: 480px;
+}
+.saveBtnWrap {
+    width: 175px;
+}
+
+.myAlert.alert {
+    color: var(--black);
+    position: absolute;
+    bottom: 24px;
+    max-width: 395px;
+    width: 100%;
+    z-index: 1000;
+    left: 50%;
+    margin-left: 100px;
+    transform: translateX(-50%);
+}
+.myAlert.alert span[role='img'] {
+    margin-right: var(--margin-s);
+}
+@media (max-width: 661px){
+    .myAlert.alert{
+        margin-left: 20px;
+        max-width: calc(70% - 16px);
+    }
+}
+
+@media (max-width: 461px) {
+    .loginForm {
+        margin-bottom: 124px;
+    }
+    .registrationForm {
+        margin-bottom: calc(var(--baseMediumMargin) * 2);
+    }
+    .saveBtnWrap{
+        width: 100%;
+    }
+    .myAlert.alert{
+        left: 0;
+        margin-left: 0;
+        transform: translateX(16px);
+        max-width: calc(100% - 50px);
+    }
+}

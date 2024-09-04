@@ -1,0 +1,32 @@
+.checkArea{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(var(--baseMediumMargin) / 2);
+}
+.forgotPass{
+    color: var(--blue);
+    font-size: var(--fontSizeDefault);
+    font-weight: 400;
+    line-height: var(--lineHeightDefault);
+    background-color: white;
+    transition: all .1s ease;
+    box-shadow: none;
+    border: none;
+}
+.checkArea .forgotPass:hover{
+    color: #3491dd;
+    background-color: white;
+    cursor: pointer;
+}
+.checkArea .forgotPass:disabled{
+    background-color: white;
+    color: #2f55eb9b;
+    cursor: not-allowed;
+}
+
+
+@media (max-width: 451px){
+    .forgotPass{
+        font-size: var(--fontSizeMedium);
+    }
+}

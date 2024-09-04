@@ -1,0 +1,43 @@
+.stat {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-m);
+}
+
+.index {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--headerBackground);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index.hasTraining.red {
+    background-color: var(--red);
+}
+
+.index.hasTraining {
+    background-color: var(--blue);
+    color: #fff;
+}
+.text {
+    margin: 0;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+    width: auto;
+    min-width: 85px;
+}
+
+.value {
+    margin: 0;
+    font-size: var(--fontSizeMedium);
+    font-weight: 700;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+    width: auto;
+}

@@ -1,0 +1,15 @@
+.feedbackList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 750px;
+    overflow: auto;
+}
+.feedbackList::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width: 461px){
+    .feedbackList{
+        max-height: 650px;
+    }
+}

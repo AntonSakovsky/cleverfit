@@ -1,0 +1,45 @@
+:root {
+    --dateInputs-size: 28px;
+}
+
+.dateInputsContainer {
+    margin-top: var(--baseMargin);
+}
+
+.checkbox {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(var(--baseMediumMargin) / 2);
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.periodSelect, .weekdaySelect {
+    width: 150px;
+}
+
+.periodSelect input,
+.weekdaySelect input {
+    height: var(--dateInputs-size);
+}
+
+.periodSelect span[class='ant-select-selection-item'],
+.weekdaySelect span[class='ant-select-selection-item'] {
+    line-height: 24px !important;
+}
+
+.periodSelect div[class='ant-select-selector'],
+.weekdaySelect div[class='ant-select-selector'] {
+    height: var(--dateInputs-size) !important;
+}
+
+

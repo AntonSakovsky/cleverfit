@@ -1,0 +1,12 @@
+.statisticsWrap {
+    overflow: auto;
+    overflow-x: hidden;
+    height: 67vh;
+}
+.statisticsWrap::-webkit-scrollbar {
+    width: 6px;
+}
+.statisticsWrap::-webkit-scrollbar-thumb {
+    background-color: var(--greyDisabled);
+    border-radius: 3px;
+}

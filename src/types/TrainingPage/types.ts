@@ -1,0 +1,1 @@
+export type TrainingRoutes = 'trainings' | 'joint' | 'maraphons';

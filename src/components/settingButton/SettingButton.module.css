@@ -1,0 +1,35 @@
+.wrap .btnLarge{
+    display: block;
+    color: var(--black);
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: .3s;
+    align-self: flex-start;
+}
+.wrap .btnLarge:hover{
+    background-color: #dae4f7;
+    color: var(--black);
+}
+.wrap .btnSmall{
+    display: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    padding: 4px 10px;
+    color: var(--black);
+}
+
+.wrap .btnSmall:hover{
+    background-color: #dae4f7;
+    color: var(--black);
+}
+
+@media (max-width: 561px){
+    .wrap .btnLarge{
+        display: none;
+    }
+    .wrap .btnSmall{
+        display: block;
+    }
+}

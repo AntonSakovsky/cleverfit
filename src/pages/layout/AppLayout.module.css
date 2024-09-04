@@ -1,0 +1,33 @@
+.mainPageContainer {
+    background: url('../../../public/img/main-page_light.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.mainPageContainer .mainLayout {
+    height: 100%;
+    background-color: transparent;
+}
+
+.mainPageContainer .contentLayout {
+    background-color: transparent;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 835px) {
+    .mainPageContainer {
+        max-width: 834px;
+    }
+}
+
+@media (max-width: 361px) {
+    .mainPageContainer {
+        max-width: 360px;
+    }
+}

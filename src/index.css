@@ -1,0 +1,98 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgb(255, 255, 255);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --margin-xxl: 64px;
+    --margin-xl: 48px;
+    --margin-l: 32px;
+    --baseMargin: 24px;
+    --baseMediumMargin: 16px;
+    --margin-s: 12px;
+    --margin-xs: 8px;
+    --margin-xxs: 4px;
+
+    --gap-l: 24px;
+    --gap: 16px;
+    --gap-m: 12px;
+    --gap-s: 8px;
+    --gap-xs: 4px;
+
+    --padding-xxl: 64px;
+    --padding-xl: 48px;
+    --padding-l: 32px;
+    --basePadding: 24px;
+    --baseMediumPadding: 16px;
+    --padding-s: 12px;
+    --padding-xs: 8px;
+    --padding-xxs: 4px;
+
+    --fontSizeDefault: 16px;
+    --lineHeightDefault: 20.8px;
+    --fontSizeMedium: 14px;
+    --lineHeightMedium: 18.2px;
+    --fontSizeSmall: 12px;
+    --lineHeightSmall: 15.6px;
+    --fontSizeLarge: 24px;
+    --lineHeightLarge: 31.2px;
+    --fontSize-m: 20px;
+    --lineHeight-m: 26px;
+    --fontSize-xl: 38px;
+    --lineHeight-xl: 49.4px;
+
+    /* colors */
+    --black: #262626;
+    --headerBackground: #F0F5FF;
+    --blue: #2F54EB;
+    --grey: #8c8c8c;
+    --lightGrey: #f0f0f0;
+    --grey3: #f5f5f5;
+    --greyDisabled: #BFBFBF;
+    --red: #FF4D4F;
+}
+*{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+.ant-typography{
+    margin: 0 ;
+}
+.ant-menu{
+    border: none;
+}
+.ant-layout-sider{
+    background-color: white;
+}
+.ant-layout-content{
+    min-height: unset;
+}
+.ant-menu .ant-menu-item{
+    width: 100%;
+}
+.ant-form-item{
+    margin-bottom: var(--baseMediumMargin);
+}
+
+.ant-btn{
+    height: auto;
+}
+.ant-input-group-wrapper-status-error .ant-input-group-addon{
+    color: var(--black);
+}
+.ant-input-status-error{
+    border-left-color: #d9d9d9 !important;
+}
+
+.ant-layout-header{
+    line-height: normal;
+}

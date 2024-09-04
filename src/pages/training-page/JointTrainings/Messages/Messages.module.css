@@ -1,0 +1,42 @@
+.messagesWrap {
+    background-color: #fafafa;
+    padding: var(--basePadding);
+    margin-bottom: var(--baseMargin);
+}
+
+.messagesCount {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+    margin-bottom: var(--baseMediumMargin);
+}
+
+.messagesList {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-s);
+    transition: all .2s ease-out;
+    height: 0px;
+}
+
+.showMoreBtn {
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--blue) !important;
+}
+.showMoreBtn .icon {
+    transition: all 0.2s ease;
+}
+.icon.rotated {
+    transform: rotate(90deg);
+}
+.firstMessage {
+   margin-bottom: var(--margin-xs);
+}
+@media (max-width: 461px){
+    .messagesWrap {
+        padding: var(--padding-s);
+    }
+}

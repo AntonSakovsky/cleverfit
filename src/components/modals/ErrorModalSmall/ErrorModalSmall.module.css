@@ -1,0 +1,66 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(4px);
+    z-index: 100;
+}
+.modal{
+    position: absolute;
+    width: 416px;
+    padding: var(--padding-l);
+    padding-bottom: var(--basePadding);
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 9px 28px 8px #0000000D, 0px 6px 16px 0px #00000014, 0px 3px 6px -4px #0000001F;
+    z-index: 100;
+}
+.modal.clasable{
+    width: 384px;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+.icon{
+    margin-right: var(--baseMediumMargin);
+}
+.textBlock{
+    margin-bottom: var(--baseMargin);
+}
+.title{
+    margin: 0;
+    font-size: var(--fontSizeDefault);
+    font-weight: 500;
+    line-height: var(--lineHeightDefault);
+    margin-bottom: var(--margin-xs);
+    color: var(--black);
+    padding-right: 10px;
+}
+.message{
+    margin: 0;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+}
+.buttonWrap{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttonWrap .refetchBtn{
+    background-color: var(--blue);
+}
+.buttonWrap .refetchBtn:hover{
+    background-color: #2b48bb;
+}
+
+@media (max-width: 461px){
+    .modal{
+        width: 328px;
+    }
+}

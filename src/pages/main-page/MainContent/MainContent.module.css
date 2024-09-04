@@ -1,0 +1,65 @@
+.content{
+    background-color: transparent;
+    margin-left: var(--baseMargin);
+}
+.listTitle{
+    color: #061178;
+    font-size: var(--fontSizeDefault);
+    line-height: var(--lineHeightDefault);
+    font-weight: 400;
+}
+.list{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.listItem{
+    color: #061178;
+    font-size: var(--fontSizeDefault);
+    line-height: var(--lineHeightDefault);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1px;
+}
+.listItem::before{
+    content: '—';
+    margin-right: var(--margin-xxs);
+}
+.content .prompt{
+    font-size: var(--fontSize-m);
+    font-weight: 500 ;
+    line-height: var(--lineHeight-m) ;
+    color: var(--black) ;
+    margin: 0px ; 
+}
+.actionCardList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: var(--baseMargin);
+    margin-bottom: var(--margin-s);
+}
+.calendar svg path{
+    fill: #2f54eb;
+}
+
+@media (max-width: 541px){
+    .actionCardList{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: var(--margin-xs);
+        margin-right: var(--baseMargin);
+    }
+}
+@media (max-width: 361px){
+    .actionCardList{
+        flex-direction: column;
+        align-items: center;
+        margin-top: var(--baseMediumMargin);
+        margin-right: var(--baseMediumMargin);
+    }
+    .content{
+        margin-left: var(--baseMediumMargin);
+    }
+}

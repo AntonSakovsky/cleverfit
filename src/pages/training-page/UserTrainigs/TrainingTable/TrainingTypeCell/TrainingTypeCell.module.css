@@ -1,0 +1,13 @@
+.typeCell {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconWrap {
+    padding: var(--padding-xxs) 10px;
+    border-radius: 50%;
+}
+.iconWrap:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+}

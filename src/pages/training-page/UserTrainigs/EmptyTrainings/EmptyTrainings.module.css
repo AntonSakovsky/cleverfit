@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 70px;
+    font-size: var(--fontSizeLarge);
+    font-weight: 500;
+    line-height: var(--lineHeightLarge);
+    text-align: center;
+}
+
+.btnWrap {
+    max-width: 180px;
+}
+
+@media (max-width: 461px){
+    .btnWrap {
+        max-width: 100%;
+        width: 100%;
+    }
+}

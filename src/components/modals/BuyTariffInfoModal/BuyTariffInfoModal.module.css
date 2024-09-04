@@ -1,0 +1,38 @@
+:root{
+    --buy-tariff-modal-fsSmall: 14px;
+    --buy-tariff-modal-fw400: 14px;
+    --buy-tariff-modal-lhSmall: 14px;
+}
+
+.buyInfoModal.modal div[class="ant-result ant-result-info"]{
+    padding: 0;
+}
+.title {
+    font-size: var(--fontSizeLarge);
+    font-weight: 500;
+    line-height: var(--lineHeightLarge);
+    text-align: center;
+    color: var(--black);
+    width: 100%;
+}
+.subtitle {
+    margin: 0;
+    font-size: var(--buy-tariff-modal-fsSmall);
+    font-weight: var(--buy-tariff-modal-fw400);
+    line-height: var(--buy-tariff-modal-lhSmall);
+    text-align: center;
+    color: var(--grey);
+    width: 100%;
+}
+.subtitle span{
+    font-weight: bold;
+}
+.extraInfo {
+    font-size: var(--buy-tariff-modal-fsSmall);
+    font-weight: var(--buy-tariff-modal-fw400);
+    line-height: var(--buy-tariff-modal-lhSmall);
+    text-align: center;
+    color: var(--grey);
+    margin-top: var(--baseMargin);
+    padding-inline: var(--padding-l);
+}

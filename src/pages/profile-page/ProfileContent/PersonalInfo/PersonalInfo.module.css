@@ -1,0 +1,34 @@
+.personalInfo{
+    margin-bottom: calc(var(--margin-xl) - 8);
+}
+.title{
+    font-size: var(--fontSizeDefault);
+    font-weight: 500;
+    line-height: var(--lineHeightDefault);
+    color: var(--black);
+    margin-bottom: var(--baseMargin);
+}
+.fieldsWrap{
+    display: flex;
+    align-items: start;
+}
+.upload{
+    margin-right: var(--baseMargin);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+@media (max-width: 661px){
+    .fieldsWrap{
+        align-items: unset;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 461px){
+    .upload{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,40 @@
+.card {
+    background-color: #fff;
+    border: 1px solid var(--lightGrey);
+    border-radius: 5px;
+    padding: var(--basePadding);
+    box-shadow: 0px 1px 5px 0px #00000017;
+    min-width: 155px;
+    margin-bottom: var(--margin-s);
+}
+
+.statValue {
+    font-size: var(--fontSize-xl);
+    line-height: var(--lineHeight-xl);
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+    margin: 0;
+    
+}
+
+.statDescription {
+    font-size: var(--fontSizeMedium);
+    line-height: var(--lineHeightMedium);
+    font-weight: 400;
+    color: var(--grey);
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 461px){
+    .card {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .textWrap{
+        display: flex;
+    }
+}

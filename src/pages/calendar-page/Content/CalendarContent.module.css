@@ -1,0 +1,26 @@
+.contentContainer{
+    background-color: var(--headerBackground);
+    padding: var(--padding-s) 93px;
+    padding-inline: var(--basePadding)
+}
+
+.exersise{
+    margin: 0;
+}
+.errorSaveBtn{
+    background-color: var(--blue) !important;
+    color: white;
+    font-size: var(--fontSizeMedium);
+    line-height: var(--lineHeightMedium);
+    font-weight: 400;
+    padding: var(--padding-xxs)var(--baseMediumPadding);
+}
+.errorSaveBtn:hover{
+    background-color: #3e62f2 !important;
+}
+.errorModalTitle{
+    color: var(--black);
+}
+.smallCalendarContainer{
+    width: 100%;
+}

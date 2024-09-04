@@ -1,0 +1,7 @@
+.datePicker {
+    height: 28px;
+    width: 150px;
+}
+.hasTraining {
+    background-color: var(--headerBackground);
+}

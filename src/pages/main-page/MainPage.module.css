@@ -1,0 +1,38 @@
+.mainPageContainer{
+    background: url('public/img/main-page_light.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 1024px;
+}
+.mainPageMenu{
+    height: 100%;
+}
+.sider{
+    height: 100%;
+}
+.mainPageContainer .mainLayout{
+    height: 100%;
+    background-color: transparent;
+}
+
+@media (max-width: 1020px){
+    .mainPageContainer{
+        height: auto;
+    }
+}
+
+@media (max-width: 835px){
+    .mainPageContainer{
+        max-width: 834px;
+    }
+}
+
+@media (max-width: 361px){
+    .mainPageContainer{
+        height: 1362px;
+        max-width: 360px;
+    }
+}

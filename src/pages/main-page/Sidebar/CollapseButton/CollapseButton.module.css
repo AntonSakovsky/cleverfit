@@ -1,0 +1,40 @@
+.collapseBtnL, .collapseBtnS{
+    --collapsebtn-color: white;
+    display: flex;
+    justify-content: center;
+    background-color: var(--collapsebtn-color);
+    width: 20px;
+    height: 66px;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition: all .2s ease;
+    
+}
+
+.collapseBtnS{
+    display: none;
+    top: 24px;
+    right: -32px;
+    width: 32px;
+    height: 48px;
+    transform: none;
+}
+
+.collapseBtnL:hover, .collapseBtnS:hover{
+    cursor: pointer;
+    background-color: #f5f7ff;
+}
+
+@media (max-width: 768px){
+    .collapseBtnL{
+        display: none;
+    }
+    .collapseBtnS{
+        display: flex;
+    }
+}

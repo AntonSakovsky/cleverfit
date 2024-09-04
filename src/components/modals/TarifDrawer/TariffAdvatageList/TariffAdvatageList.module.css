@@ -1,0 +1,36 @@
+.tariffsName{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--gap-m);
+    margin-bottom: var(--baseMargin);
+}
+.free, .pro {
+    background-color: var(--lightGrey);
+    padding-block: var(--padding-xxs);
+    padding-inline: var(--padding-xs) 1px;
+    width: 56px;
+    text-align: center;
+}
+.pro{
+    background-color: var(--headerBackground);
+    color: #1D39C4;
+}
+.tariffAdvantages{
+    width: 100%;
+    margin-bottom: var(--margin-xl);
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 461px){
+    .tariffsName{
+        margin-bottom: var(--margin-s);
+    }
+    .tariffAdvantages{
+        margin-bottom: var(--baseMargin);
+    }
+}

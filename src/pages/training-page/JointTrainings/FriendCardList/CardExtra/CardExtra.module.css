@@ -1,0 +1,10 @@
+.bottomHint {
+    margin-top: var(--margin-s);
+    height: 16px;
+    font-size: var(--fontSizeSmall);
+    font-weight: 400;
+    line-height: var(--lineHeightSmall);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.type{
+    display: flex;
+    align-items: center;
+}
+.indicator{
+    width: 6px;
+    height: 6px;
+    min-height: 6px;
+    min-width: 6px;
+    margin-right: var(--margin-xs);
+    border-radius: 50%;
+}
+.text{
+    color: var(--black);
+    font-weight: 400;
+    overflow: hidden;
+}
+.text.small{
+    font-size: var(--fontSizeSmall);
+    line-height: var(--lineHeightSmall);
+}
+.text.normal{
+    font-size: var(--fontSizeMedium);
+    line-height: var(--lineHeightMedium);
+}
+.disabled{
+    color: var(--greyDisabled);
+}

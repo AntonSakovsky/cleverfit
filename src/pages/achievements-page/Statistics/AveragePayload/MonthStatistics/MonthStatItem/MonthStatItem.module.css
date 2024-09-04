@@ -1,0 +1,43 @@
+.weekItem {
+    min-width: 170px;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.period {
+    margin: 0;
+    margin-right: var(--baseMediumMargin);
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+}
+.arrowWrap {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.arrowWrap:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.arrow {
+    transition: transform 0.2s ease;
+}
+.arrow.reversed {
+    transform: rotate(180deg);
+}
+.statsWrap {
+    overflow: hidden;
+    transition: height 0.2s ease;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    margin-top: var(--baseMediumMargin);
+}

@@ -1,0 +1,63 @@
+.drawer div[class=ant-drawer-content]{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: var(--baseMediumPadding);
+    padding-inline: var(--padding-l);
+    margin-bottom: var(--baseMargin);
+}
+.title {
+    font-size: var(--fontSize-m);
+    line-height: var(--lineHeight-m);
+    font-weight: 500;
+    margin: 0;
+}
+.endTarifInfo {
+    padding-block: 14px;
+    font-size: var(--fontSizeDefault);
+    font-weight: 500;
+    line-height: var(--lineHeightDefault);
+    text-align: center;
+    color: #030852;
+    text-align: center;
+    background-color: var(--headerBackground);
+    margin-bottom: var(--baseMargin);
+}
+.body {
+    padding-inline: calc(var(--baseMediumPadding) * 2);
+    flex: 1;
+    flex-grow: 1;
+}
+
+.divider{
+    margin: 0;
+}
+.actionBtnWrap{
+    padding: var(--padding-s) var(--padding-l);
+}
+
+@media (max-width: 461px){
+    .drawer div[class=ant-drawer-content]{
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 0px;
+    }
+    .header {
+        padding-inline: var(--baseMediumPadding);
+        padding-block: var(--basePadding);
+    }
+    .body{
+        padding-inline: var(--baseMediumPadding);
+    }
+}

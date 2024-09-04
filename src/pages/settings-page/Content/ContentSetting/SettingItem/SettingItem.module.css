@@ -1,0 +1,32 @@
+.settingItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.textWrap {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.text {
+    margin: 0;
+    margin-right: var(--margin-xxs);
+    font-size: var(--fontSizeMedium);
+    font-weight: 700;
+    line-height: var(--lineHeightMedium);
+    word-wrap: break-word;
+    color: var(--black);
+}
+.text.disabled {
+    color: var(--greyDisabled);
+}
+
+.switch{
+    margin-left: calc(var(--margin-xs) + 2);
+}
+
+@media (max-width: 505px){
+    .text{
+        max-width: 170px;
+    }
+}

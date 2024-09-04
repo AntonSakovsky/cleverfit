@@ -1,0 +1,18 @@
+.footer{
+    padding-top: 70px;
+}
+.btnWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-s);
+}
+
+@media (max-width: 461px){
+    .btnWrap{
+        flex-direction: column;
+        width: 100%;
+    }
+    .actionBtnWrap{
+        width: 100%;
+    }
+}

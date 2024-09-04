@@ -1,0 +1,16 @@
+.content{
+    padding: 0px;
+    padding-inline: var(--basePadding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--baseMargin);
+    min-height: 88vh !important;
+}
+@media (max-width: 461px){
+    .content{
+        padding: 0px;
+        padding-inline: var(--baseMediumPadding);
+    }
+}

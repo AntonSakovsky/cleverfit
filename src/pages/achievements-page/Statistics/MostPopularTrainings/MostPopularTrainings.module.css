@@ -1,0 +1,31 @@
+.container {
+    margin-bottom: var(--baseMargin);
+}
+
+.itemWrap {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    margin-bottom: var(--baseMediumMargin);
+}
+.itemWrap:last-child{
+    margin-bottom: var(--margin-xl);
+}
+.statName {
+    width: 160px;
+}
+.statName p{
+    margin: 0;
+    font-size: var(--fontSizeMedium);
+    line-height: var(--lineHeightMedium);
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.value {
+    font-size: var(--fontSizeLarge);
+    line-height: var(--lineHeightLarge);
+    font-weight: 700;
+    color: var(--black);
+    margin: 0;
+}

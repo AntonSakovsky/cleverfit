@@ -1,0 +1,33 @@
+.filterContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--gap-l);
+    margin-bottom: var(--baseMediumMargin);
+    padding-block: var(--padding-xs)
+}
+
+.text {
+    margin: 0;
+    line-height: var(--lineHeightMedium);
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--gap-m);
+}
+
+.btn {
+    padding: 0 8px;
+    border-radius: 3px;
+}
+.btn.active {
+    border:1px solid #ADC6FF;
+    color: var(--blue);
+    background-color: var(--headerBackground);
+}
+

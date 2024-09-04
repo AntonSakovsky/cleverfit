@@ -1,0 +1,34 @@
+.tabs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.tabs div[class=ant-tabs-nav-list] {
+    width: 100%;
+    justify-content: space-between;
+}
+.tabs div[class=ant-tabs-nav] {
+    width: 100%;
+}
+
+.tabs div[class=ant-tabs-tab-btn] {
+    font-size: var(--fontSizeLarge);
+    line-height: var(--lineHeightLarge);
+    font-weight: 500;  
+}
+
+
+@media (max-width: 835px){
+    .tabs div[class=ant-tabs-tab-btn] {
+        font-size: var(--fontSizeMedium);
+        line-height: var(--lineHeightMedium);
+        font-weight: 500;
+    }
+}
+@media (max-width: 461px){
+    .tabs div[class=ant-tabs-tab-btn] {
+        font-weight: 400;
+    }
+}

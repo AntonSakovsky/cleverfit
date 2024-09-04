@@ -1,0 +1,50 @@
+.infoContainer {
+    margin-bottom: var(--baseMargin);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.userInfo {
+    display: flex;
+    gap: var(--gap-s);
+}
+
+.img {
+    width: 42px;
+    height: 42px;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name p {
+    margin: 0;
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    line-height: var(--lineHeightMedium);
+    color: var(--black);
+}
+
+.trainType {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-s);
+}
+
+.indicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.text {
+    margin: 0;
+    font-size: var(--fontSizeMedium);
+    font-weight: 500;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+}

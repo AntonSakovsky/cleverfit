@@ -1,0 +1,39 @@
+.btnWrap{
+    text-align: center;
+    width: 100%;
+}
+.btnWrap .actionButton{
+    font-size: var(--fontSizeDefault);
+    font-weight: 400;
+    line-height: var(--lineHeightDefault);
+    padding: 10px 15px;
+    height: auto;
+    transition: none;
+}
+.actionButton.altLoginBtn:hover{
+    background-color: #f3f3f3;
+    border-color: #d9d9d9;
+    color: var(--black);
+}
+
+.actionButton.mainLoginBtn{
+    background-color: var(--blue);
+}
+.actionButton.mainLoginBtn:hover{
+    background-color: #2b48bb;    
+}
+.actionButton.mainLoginBtn:focus{
+    background-color: var(--blue);
+}
+.actionButton.mainLoginBtn:disabled{
+    background-color: var(--grey3);
+    color: var(--greyDisabled);
+} 
+.actionButton.altLoginBtn:focus{
+    background-color: white;
+    border-color: #d9d9d9;
+    color: var(--black);
+}
+.stretch{
+    width: 100%;
+}

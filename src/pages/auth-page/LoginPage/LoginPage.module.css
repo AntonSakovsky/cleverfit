@@ -1,0 +1,49 @@
+.authPageContainer{
+    background: url('public/img/Enter_page_light.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authPanel{
+    background-color: white;
+    padding-block: var(--padding-xxl);
+    padding-inline: 85.5px;
+    height: 799px;
+}
+.authPanelImg{
+    width: 310px;
+    height: 76px;
+    margin-bottom: var(--margin-xl);
+}
+.authPanelImg img{
+    width: 100%;
+    height: 100%;
+}
+.formContainer{
+    width: 359px;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--baseMargin);
+}
+.tab{
+    flex: 1;
+    color: var(--black);
+    font-weight: 400;
+    font-size: var(--fontSizeDefault);
+    line-height: var(--lineHeightDefault);
+    padding: 12.5px 41px;
+    text-align: center;
+}
+.tab.active{
+    color: var(--blue);
+    border-bottom: 2px solid #2F54EB;
+}

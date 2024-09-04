@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--baseMediumPadding);
+    margin-bottom: var(--baseMargin);
+}
+.title{
+    font-size: var(--fontSize-m);
+    line-height: var(--lineHeight-m);
+    font-weight: 500;
+    margin: 0;
+}

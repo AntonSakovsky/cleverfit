@@ -1,0 +1,5 @@
+@media (max-width: 767px){
+    .modalSuccess.modal{
+        max-width: calc(100vw - 32px);
+    }
+}

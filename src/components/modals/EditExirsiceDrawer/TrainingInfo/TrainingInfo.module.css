@@ -1,0 +1,35 @@
+.trainInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--baseMargin);
+}
+.type{
+    display: flex;
+    align-items: center;
+}
+.indicator{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: var(--margin-xs);
+}
+.text{
+    font-size: var(--fontSizeMedium);
+    font-weight: 500;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey);
+    margin: 0;
+}
+.date{
+    font-size: var(--fontSizeMedium);
+    font-weight: 500;
+    line-height: var(--lineHeightMedium);
+    color: var(--grey)
+}
+
+@media (max-width: 461px){
+    .trainInfo {
+        padding-inline: var(--baseMediumPadding);
+    }
+}

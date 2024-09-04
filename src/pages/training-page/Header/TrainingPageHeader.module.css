@@ -1,0 +1,9 @@
+.headerContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.breadCrumbContainer{
+    height: 48px;
+}
